@@ -1,19 +1,25 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <img alt="Vue logo" src="./assets/logo.png" />
+    <!-- <ApolloExample msg="Welcome to Your Vue.js App" /> -->
+    <div>test</div>
+    <!-- <b-row class="m-4">
+      <my-table />
+    </b-row> -->
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+// import ApolloExample from "./components/ApolloExample.vue";
+// import MyTable from "./components/MyTable.vue";
 
 export default {
-  name: 'App',
+  name: "App",
   components: {
-    HelloWorld
-  }
-}
+    // ApolloExample,
+    // MyTable,
+  },
+};
 </script>
 
 <style>
